@@ -29,6 +29,6 @@ jobs: # combination of actions
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: pritamscrobits/java-app
-      	registry: docker.io
+        registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
